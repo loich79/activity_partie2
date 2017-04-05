@@ -1,0 +1,4 @@
+Quelques exemples de regex à tester : 
+#^.{6,}$# : teste s'il y a au moins 6 caractères
+#^[a-z]#i : teste si le texte commence par une lettre (majuscule ou minuscule)
+#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$# : teste si le texte a bien la forme d'une adresse email
